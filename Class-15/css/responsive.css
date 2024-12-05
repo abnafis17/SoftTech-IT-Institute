@@ -1,0 +1,107 @@
+@media all and (max-width: 768px) {
+	.menu-area ul li {
+		margin: 0 2%;
+	}
+	.menu-area ul .logo img {
+		margin: 0 2%;
+		width: 30px;
+		height: auto;
+	}
+	.community {
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.photo-area {
+		width: 100%;
+	}
+	.appstore strong {
+		padding: 10px 25px 10px 10px;
+		margin-left: 0;
+	}
+	.appstore a {
+		padding: 10px 10px;
+		margin-right: 10px;
+	}
+}
+
+@media all and (max-width: 568px) {
+	h2 {
+		font-size: 20px;
+	}
+	.menu-area ul li {
+		display: block;
+		margin: 15px 0;
+	}
+	.menu-area ul .logo img {
+		margin: 25px 0;
+		width: 50px;
+		height: auto;
+	}
+	.getting-started {
+		max-height: 450px;
+	}
+	.btn {
+		padding: 5px 15px;
+	}
+	.appstore strong {
+		padding: 5px 20px 5px 5px;
+		margin-left: 0;
+	}
+	.appstore a {
+		padding: 5px 5px;
+		margin-right: 5px;
+	}
+	.copyright-area p {
+		font-size: 12px;
+	}
+	.greenlogo {
+		float: right;
+		width: 20px;
+		height: auto;
+	}
+}
+
+@media all and (max-width: 450px) {
+	h2 {
+		text-transform: uppercase;
+		font-size: 16px;
+		letter-spacing: 1px;
+		line-height: 1.5em;
+	}
+	h5 {
+		font-size: 12px;
+	}
+	.welcome-text {
+		margin-top: 100px;
+	}
+	.appstore {
+		overflow: hidden;
+	}
+	.apple {
+		display: block;
+		width: 100%;
+		padding: 10px 0;
+		margin-bottom: 30px;
+	}
+	.playstore {
+		display: block;
+		width: 100%;
+		padding: 10px 0;
+	}
+	.appstore strong {
+		padding: 10px 20px 10px 10px;
+		margin-left: 0;
+	}
+	.appstore a {
+		padding: 10px 10px;
+		margin-right: 0;
+	}
+	.copyright-area {
+		float: none;
+		margin-bottom: 20px;
+	}
+	.greenlogo {
+		padding-right: 5%;
+	}
+}
